@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق نظم المعلومات الجغرافية (GIS)</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>أهلاً أيها المستخدم</h1>
+        <div id="map"></div>
+        <input type="text" id="questionInput" placeholder="اكتب سؤالك هنا...">
+        <div class="button-container">
+            <button id="submitButton">إرسال</button>
+            <button id="reloadButton">إعادة تحميل</button>
+            <button id="languageToggle">تبديل اللغة</button>
+        </div>
+        <div id="answers"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- تحميل CesiumJS -->
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.90/Build/Cesium/Cesium.js"></script>
+<link href="https://cesium.com/downloads/cesiumjs/releases/1.90/Build/Cesium/Widgets/widgets.css" rel="stylesheet">

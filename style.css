@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0e0e6; /* لون لبني */
+}
+
+.container {
+    text-align: center;
+}
+
+#map {
+    height: 400px; /* ارتفاع الخريطة */
+    width: 100%; /* عرض الخريطة */
+    border: 5px solid black; /* إطار أسود للخريطة */
+    margin: 0 auto 10px auto; /* توسيط الخريطة */
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em; /* تكبير حجم الخط */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* محاذاة الزر إلى المنتصف */
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1.2em; /* تكبير حجم الخط */
+}
+
+#submitButton {
+    background-color: #4CAF50; /* لون الزر الأخضر */
+    color: white;
+    border: none;
+    border-radius: 5px; /* زوايا دائرية للزر */
+}
+
+#answers {
+    font-size: 1.5em; /* تكبير حجم خط الإجابات */
+}
